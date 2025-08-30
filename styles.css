@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(240, 240, 240, 0.87);
+}
+
+.navbar {
+    background-color: #5c5b57;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.sticky-nav {
+    color: white;
+    text-align: center;
+    background-color: #5c5b57;
+    padding: 10px;
+}
+
+.sticky-nav a {
+    font-weight: bold;
+    padding: 0 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+}
+
+.fields {
+    width: 100%;
+    margin: 0 auto 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+    border-top: 1px solid rgb(122, 122, 122);
+}
+
+.fields h2 {
+    margin-bottom: 20px;
+}
+
+.fields>p {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#about img {
+    border-radius: 50%;
+    margin: 10px;
+}
+
+#flexContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#flexContainer p {
+    padding: 5px;
+}
+
+.card {
+    margin: 0 10px;
+    border: 1px solid rgb(122, 122, 122);
+    background-color: rgb(195, 196, 195);
+    border-radius: 10%;
+    font-weight: 600;
+    box-shadow: 2px 2px 1px #aaaaaa;
+}
+
+#projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#projects .project-card {
+    background-color: rgb(195, 196, 195);
+    border: 1px solid rgb(122, 122, 122);
+    border-radius: 10px;
+    padding-top: 5px;
+    max-width: 30%;
+    box-shadow: 2px 2px 5px #aaaaaa, -2px -2px 5px #aaaaaa ;
+}
+
+.project-card img {
+    max-width: 50%;
+    width: 200px;
+}
+
+.contactinfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+footer .navbar {
+    padding: 10px;
+}
